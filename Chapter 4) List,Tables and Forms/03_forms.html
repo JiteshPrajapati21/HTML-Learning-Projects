@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1> Forms in HTML </h1>
+    <form action="/submit.php"> <!--The data of this form will store in submit, that use by action in HTML -->
+        <div>
+            <!-- 1. Text input - for names, usernames, etc. -->
+            <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <!-- 2. Password input - hides the entered characters -->
+            <input type="password" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <!-- 3. Email input - for email addresses -->
+            <input type="email" placeholder="Enter your email">
+        </div>
+
+        <div>
+            <!-- 4. Number input - for numerical values -->
+            <input type="number" placeholder="Enter your age">
+        </div>
+
+        <div>
+            <!-- 5. Radio button - select ONLY ONE option -->
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <div>
+            <!-- 6. Checkbox - select ONE or MORE options -->
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+        </div>
+
+        <div>
+            <!-- 7. Date input - select a date -->
+            <input type="date">
+        </div>
+
+        <div>
+            <!-- 8. File input - upload a file -->
+            <input type="file">
+        </div>
+
+        <div>
+            <!-- 9. Submit button - submit a form -->
+            <input type="submit" value="Submit">
+        </div>
+
+        <div>
+            <!-- 10. Reset button - clear/reset form fields -->
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
